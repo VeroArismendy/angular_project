@@ -3,13 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import { LoginComponent } from './component/login/login.component';
-import { PageComponent } from './component/page/page.component';
+import { LoginComponent } from './components/login/login.component';
+import { PageComponent } from './components/page/page.component';
 
 // Routes
 import { APP_ROUTES } from './app.routes';
-import { PagenotfoundComponent } from './component/pagenotfound/pagenotfound.component';
-import { MenuComponent } from './component/menu/menu.component';
+import { PagenotfoundComponent } from './components/pagenotfound/pagenotfound.component';
+import { MenuComponent } from './components/menu/menu.component';
 import { SecurityModule } from './security/security.module';
 
 // Modules
